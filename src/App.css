@@ -1,0 +1,63 @@
+
+* {
+  font-family: Arial, sans-serif;
+  margin: 1rem;
+  padding: 0.5rem;
+  box-sizing: content-box;
+  
+}
+
+body {
+  background: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.Wrapper {
+  background: cyan;
+  margin-top: 1rem;
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.width {
+  width: 100%;
+}
+
+.input {
+border: none;
+background-color: gray;
+border: 2px solid #000;
+padding: 1rem;
+margin-top: 1px;
+margin-bottom: 1px;
+width: 600px;
+
+}
+
+.todo-input::placeholder {
+  color:black
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: gray;
+  color: black;
+  border-radius: 20px;
+  margin-bottom: 1px;
+}
+
+ 
